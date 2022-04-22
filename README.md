@@ -40,12 +40,12 @@ This webpage magically transforms a users input into Mr. Robogers "Beep, Boop" l
 
 Open by downloading:
 1. Download the respository onto your computer
-2. Drag and drop index.html into your web browser from gh-pages: https:/ampando.github.io/MrRobogers/
+2. Drag and drop index.html into your web browser from gh-pages: https://ampando.github.io/MrRobogers/
 
 Open with Bash/GitBash:
 1. Open your bash terminal
 2. Use git clone, copy and paste github URL using clone or 
-3. Download green button: https://aesadin.github.io/Beep-Boop/ _
+3. Download green button: https://ampando.github.io/mrRobogers/ 
 4. Navigate into the 'My-Portfolio' directory using cd My-Portfolio
 5. Open in Visual Studio code using 'code .' command
 6. Open index.html in Chrome or preferred browser: 'open index.html
