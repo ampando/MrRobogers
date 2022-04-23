@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="js/scripts.js"></script>
+  <script src="js/jquery-3.6.0.js"></script>
   <title>Mr. Robogers Neighborhood</title>
 </head>
 <body>
+  <div class="container">
   <h1>Welcome to Mr. Robogers Neighborhood!</h1>
     <form id="myNeighbor">
       <div class="form-group">
-        <p>Enter a number from 1-1000 to see it become robo magic:</p>
-        <textarea id="text-passage" name="myNeighbor" class="form-control"></textarea>
+        <p><em>Enter a number from 1-1000 to see it become robo magic:</em></p>
+        <textarea id="text-passage" name="myNeighbor"></textarea>
         <br>
         <button type="submit" class="btn btn-success">Enter Neighborhood</button>
-      </div>
-    </form>
-    <p>Mr. Robogers says:<span id="magic"></span></p>
-
+      </form>
+    </div>
+ 
+    <p><em>Mr. Robogers says:</em><span id="magic"></span></p>
+  </div>
 </body>
 </html>

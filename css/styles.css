@@ -4,6 +4,9 @@ body {
 h1 {
   text-align: center;
 }
+#text-passage {
+  width: 40% 
+}
 
 .btn {
   margin: 3px;
