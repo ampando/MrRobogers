@@ -12,14 +12,17 @@
   <h1>Welcome to Mr. Robogers Neighborhood!</h1>
     <form id="myNeighbor">
       <div class="form-group">
-        <p><em>Enter a number from 1-1000 to see it become robo magic:</em></p>
-        <textarea id="text-passage" name="myNeighbor"></textarea>
+        <label for="textPassage"><em>Enter a number from 1-1000 to see it become robo magic:</em></label>
+        <input id="textPassage" name="input">
         <br>
+      </div>
         <button type="submit" class="btn btn-success">Enter Neighborhood</button>
-      </form>
-    </div>
- 
-    <p><em>Mr. Robogers says:</em><span id="magic"></span></p>
+    </form>
   </div>
+
+    <div class="result">
+      <em>Mr. Robogers says:</em>
+      <p></p>
+    </div>
 </body>
 </html>

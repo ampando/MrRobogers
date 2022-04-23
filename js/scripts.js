@@ -16,12 +16,19 @@ function beep(n) {
   }
   console.log(beepArray)
   return beepArray;
-}
+};
 
 
   //UI Logic 
 $(document).ready(function() {
-  $("#formOne").submit(function(event) {
+  $("#myNeighbor").submit(function(event) {
     event.preventDefault();
-  }
-}
+    
+    const userInput = $("#textPassage").val() 
+    const functionVariable = beep(userInput)
+
+    $("p").html(functionVariable)
+    $(".result").show()
+    
+  });
+});
