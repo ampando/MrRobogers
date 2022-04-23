@@ -1,20 +1,20 @@
 Describe: numberReturn();
 
 Test: "Change user input number, into an integer"
-Code: "145"
+Input: "145"
 Expected Output: 145
 
 
 Test: "It will return all the digits of a number that contain a 1 and replace them with "Beep"
-Code: 198
+Input: 198
 Expected Output: "Beep"
 
 Test: "It will return all the digits of a number that contain a 2 and replace them with "Boop" 
-Code: 245
+Iput: 245
 Expected Output: "Boop"
 
 Test: "It will return all the digits of a number that contains a 3 and replace them with "Won't you be my neighbor?"
-Code: 333
+Input: 333
 Expected Output: "Won't you be my neighbor?"
 
 SETUP and INSTALLATION REQUIREMENTS 
