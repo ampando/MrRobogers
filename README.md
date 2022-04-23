@@ -1,4 +1,4 @@
-Describe: numberReturn();
+Describe: beep();
 
 Test: "Change user input number, into an integer"
 Input: "145"
