@@ -1,3 +1,5 @@
+This website takes a number input by the user and creates a range from 0 up to and including the inputted number. Then it replaces all numbers in that range containing the digit 3, with the sentence "Won't you be my neighbor?". Then it replaces all numbers in that range containing the digit 2, with the word "Boop!". Then it replaces all numbers in that range containing the digit 1, with the word "Beep!". Then it returns the string to the user.
+
 Describe: beep();
 
 Test: "Change user input number, into an integer"
